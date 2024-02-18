@@ -1,0 +1,343 @@
+<!--SWE642 Nehanth Chowdary Pavuluri G01413928 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-image: url("bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Roboto', sans-serif;
+    }
+    .container {
+      text-align: left;
+      margin-top: 20px;
+    }
+    .profile-picture {
+      border-radius: 100%;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      margin-top: 60px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .card-title {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .card-text {
+      color: #6c757d;
+    }
+    .card-header {
+      background-color: #343a40;
+      color: #ffffff;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .card-body {
+      background-color: #ffffff;
+      border-radius: 0 0 10px 10px;
+      padding: 20px;
+    }
+    .card-body ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .card-body ul li {
+      margin-bottom: 5px;
+    }
+.container {
+    align-items: center;
+    justify-content: center;
+  }
+  .section {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+  }
+  
+  .paragraph {
+    color: #555;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+     color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+     color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .title {
+    font-size: 24px;
+    color: #222;
+    line-height: 24px;
+  }
+  .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="mypagenav.html">
+        <div class="logo-image">
+              <img src="logo.jpg" class="img-fluid">
+        </div>
+  </a>
+    <a class="navbar-brand" href="#">Nehanth Chowdary Pavuluri</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar " aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavBar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#languages">Languages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <p id="about">
+  <div class="container">
+    <section class="section">
+        <img src="ig.jpeg" class="image" style="width:350" height="400"  alt="Avatar"/>
+        <div class="content">
+            <b>
+            <h1>Nehanth Chowdary Pavuluri</h1>
+            <h3>Master's Student at George Mason University</h3>
+            </b>
+            <br>
+            <p> An outgoing, dependable team-player with a continual learning mindset and skills enhancement while making a significant contribution consistently to the success.
+            </p> 
+            <p>
+              Pursuing MS-CS at George Mason University.
+            </p>  
+            <p>
+              <b>Part2: CS page, Survey page, errorpage links:</b>
+            </p>
+            <p>
+              <a href="cspage.html">CS Department page</a>
+            <p>
+              <a href="survey2.html">CS Department Survey</a>
+            </p>
+            <p><a href="errorpage.html">Error Page</a></p>
+          
+        </div>
+      </section>
+    </p>
+    <p id="work">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+      </div>
+      <div class="card-body">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Engineer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2021 - Sept 2022</h6>
+          <ul>
+            <li>
+              <strong>Company:</strong> Tata Consultancy Services (TCS)<br>
+              <strong>Roles:</strong> Jr. Developer, Designer, Systems Engineer, IAM, Analyst<br>
+              <strong>Experience:</strong> 1.5 years
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Intern Software Engineer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - Aug 2018</h6>
+          <ul>
+            <li>
+              <strong>Company:</strong> Ennoble Technologies PVT LTD-Intern<br>
+              <strong>Roles:</strong> Java Intern, Technical Documentation Lead<br>
+              <strong>Experience:</strong> 3 months
+            </li>
+          </ul>
+          <hr>
+        </div>
+      </div>
+    </div>
+    </p>
+<p id="education">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+      </div>
+      <div class="card-body">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Undergraduation</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 - Sept 2020</h6>
+          <ul>
+            <li>
+              <strong>Bachelor of Technology - Computer Science and Engineering </strong>
+              <br> Institute of Aeronautical Engineering (IARE) 
+            </li>
+          </ul> 
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Intermediate</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <ul>
+            <li>
+              <strong>Higher Secondary - MPC </strong>
+              <br>Intermediate College: Narayana Junior College 
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <ul>
+            <li>
+              <strong>Elementary-SSC</strong>
+              <br>School: Narayana Concept School
+            </li>
+          </ul>
+          <br>
+        </div>
+      </div>
+    </div>
+  </p>
+  <p id="skills">
+    <p class="card">
+        <div class="card-header">
+          <h2 class="w3-text-white w3-padding-16"><i class="fa fa-cogs fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Skills</h2>
+        </div>
+        <div class="card-body">
+          <p>Databases</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
+          </div>
+          <p>Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+          <p>C</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+        </div>
+      </p>
+        <p id="languages">
+        <div class="card-header">
+          <h2 class="w3-text-white w3-padding-16"><i class="fa fa-globe fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Languages</h2>
+        </div>
+        <div class="card-body">
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:85%"></div>
+          </div>
+          <p>Telugu</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+          </div>
+          <br>
+        </div>
+      </div>
+  </p>
+  <p id="contact">
+    <div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="w3-text-white w3-padding-16"><i class="fa fa-address-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Contact</h2>
+          </div>
+      <div class="card-body">
+        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><b>Address:</b> Fairfax, VA (USA)</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><b>Mail:</b> nehanth@gmail.com</p>
+        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><b>Phone:</b> +1(234)-567-890</p>
+        <hr>
+        <footer class="w3-container w3-teal w3-center w3-margin-top">
+          <p>Find me on social media</p>
+          <a href="#" class="w3-button w3-blue"><i class="fa fa-facebook-official"></i></a>
+          <a href="#" class="w3-button w3-red"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="w3-button w3-blue"><i class="fa fa-linkedin-square"></i></a>
+        </footer>
+      </div>
+    </div>
+</div>
+    </p>
+  </div>
+  <center>Nehanth Chowdary Pavuluri G01413928</center>
+</body>
+</html>
